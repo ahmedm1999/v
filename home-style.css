@@ -1,0 +1,231 @@
+html body
+{
+	font-family: 'Tajawal', sans-serif;
+}
+
+/*Nvigation Bar*/
+
+.container-fluid .logo-txt table tr td span
+{
+	color: #b1a35a !important;
+	font-weight: bolder;
+}
+.container-fluid .logo-txt table tr td span #lblDonateAmountErr0 , .logo-txt table tr td span #lblDonateAmountErr1
+{
+	font-size: 20px !important;
+	margin-top: 3rem !important;
+}
+#main-website-navigation > div ul {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 2.4em;
+}
+/* 6f0000*/
+.bg-primary
+{
+	background-color: #005086 !important;
+	margin-top: -1px ;
+	border-bottom: 2px solid #b1a35a
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link
+{
+	color: #fff ;
+	opacity: 0.7
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover
+{
+	opacity: 1
+}
+
+.active1
+{
+	
+	font-weight: 700 ;
+	opacity: 1 !important
+}
+.container-fluid .logo-sec .img2-logo-sec
+{
+	width: 130px ;
+}
+@media (max-width: 992px)
+{
+	.container-fluid .logo-sec .img2-logo-sec
+	{
+		width: 120px ;
+	}
+	.container-fluid .logo-sec .img1-logo-sec 
+	{
+		width: 50px ;
+	}
+	.container-fluid .logo-sec
+	{
+		justify-content: center;
+		align-items: center;
+	}
+	.container-fluid .logo-txt table tr td span #lblDonateAmountErr0
+	{
+		font-size: 20px !important;
+		margin-top: 3rem !important;
+	}
+	.container-fluid .logo-txt
+	{
+		justify-content : center !important;
+	}
+}
+
+.navbar-toggler 
+{
+	color: #b1a35a !important;
+	font-size: 30px ;
+}
+@media (max-width: 767px)
+{
+	.container-fluid .logo-sec .img2-logo-sec
+	{
+		margin-top: 17px ;
+	}
+	.container-fluid .logo-sec .img1-logo-sec 
+	{
+		margin-top: 17px ;
+	}
+	.container-fluid .logo-txt table tr td span #lblDonateAmountErr0 
+	{
+		font-size: 13px !important;
+		font-weight: bold !important;
+	}
+	.container-fluid .logo-txt table tr td span #Label1 , .container-fluid .logo-txt table tr td span #Label2
+	{
+		font-weight: lighter !important;
+		font-size: 12px !important;
+	}
+	.logo-txt table tr td span #lblDonateAmountErr1
+	{
+		font-size: 20px !important;
+		font-weight: bold !important;
+	}
+	.logo-txt table tr td span #Label1-1 , .logo-txt table tr td span #Label2-1
+	{
+		font-weight: lighter !important;
+		font-size: 15px !important;
+	}
+	.navbar .navbar-collapse .navbar-nav .nav-item .nav-link
+	{
+		color: #fff ;
+		opacity: 0.7
+	}
+	.row .btn-primary
+	{
+		font-size: 11px !important ;
+	}
+}
+/*/Navigation Bars*/
+
+.news {
+    width: 160px ;
+    background-color: #005086 !important ;
+
+}
+
+.news-scroll a {
+    text-decoration: none ;
+    color: #005086;
+
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px !important;
+    border-radius: 50%;
+    display: inline-block
+}
+
+
+.card .card-body .card-title 
+{
+    font-size: 20px ;
+    font-weight: bold;
+    margin: 10px ;
+    margin-top: 10px ;
+    color : #005086 !important;
+}
+.card .card-text .in-br-1
+{
+	border: 1.5px solid #b1a35a;
+	text-align: center;
+	border-radius: 5px ;
+	width: 200px ;
+}
+.card .card-body .card-text input[type="submit"]
+{
+	border-radius: 5px ;
+	width: 100px;
+	color: #b1a35a ;
+	background-color: #fff ;
+	border : 1.5px solid #005086;
+	padding: 0.3rem ;
+	font-weight: bold ;
+	font-size: 17px
+}
+
+.row .btn-primary
+{
+	color: #b1a35a;
+	background-color: #fff ;
+	border : 2px solid #005086;
+	font-weight: bold ;
+	font-size: 16px ;
+	width: 300px ;
+	padding: .5rem;
+}
+
+.tarhib h3 
+{
+	background-color: #DCDCDC ;
+	color: #005086;
+	padding: 1rem ;
+}
+.welcome-box
+{
+	border : 1px solid #fff;
+	padding: 0px ;
+	box-sizing: border-box;
+	color:#b1a35a;
+	font-weight: bold ;
+	line-height: 30px ;
+}
+@media (max-width: 1250px) 
+{
+	.welcome-img
+	{
+		width: 100%;
+	}
+	.row .btn-primary
+	{
+		font-size: 14px ;
+	}
+}
+
+.final-jum
+{
+    background-color: #222831;
+    color: #fff;
+    padding-top: .5rem ;
+    margin-right: 0px ;
+    margin-left: 0px ;
+    border-top: 2px solid #b1a35a ;
+}
+.final-jum i
+{
+	font-size: 18px ;
+	color: #fff;
+	padding: 0.5rem ;
+	border: 2px solid #b1a35a ;
+	border-radius: 50% ;
+}
+.final-jum hr
+{
+	background-color: #b1a35a
+}
